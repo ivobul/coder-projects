@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background-color: #2b2b2b;
+  color: #fff;
+  font-family: "Comic Sans MS";
+  font-style: italic;
+  font-weight: 900;
+}
+
+/*These IDs are for the invisible divs that will hold our comic together*/
+#page {
+  height: 100%; 
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#titleblock {
+  height: 160px; 
+  width: 800px;
+  padding-left: 10px;
+}
+
+/*These are the text styles for the headline and byline*/
+h1 {
+  font-size: 2.8125rem;    
+}
+
+h2 {
+  font-size: 1rem;  
+}
+
+/*These IDs are for the panels that will make up our comic.*/
+#panel1,
+#panel2,
+#panel3,
+#panel4,
+#panel5 {
+  background-color: white;
+  border:10px solid #2b2b2b;
+  float: left;
+  overflow: hidden;
+  position:relative;
+}
+
+#panel1 {
+  height: 280px;
+  width: 780px;   
+}
+
+#panel2 {  
+  height: 280px;
+  width: 280px; 
+}
+
+#panel3 {
+  height: 280px;
+  width: 500px; 
+}
+
+#panel4 {
+  height: 280px;
+  width: 480px;
+}
+
+#panel5 {
+  height: 280px;
+  width: 300px;   
+}
+
+/*These classes are for the different text styles we will be using in the comic*/
+
+.narration {
+  background-color: #2b2b2b;
+  font-size: 0.9375rem;
+  margin: 10px;
+  padding: 15px;
+}
+
+.bigtext {
+  font-size: 1.875rem;
+  line-height: 100%;
+  margin: 20px;
+  text-shadow: 2px 2px #2b2b2b;
+}
+
+/* These classes can position text and images within the panel.*/
+.left,
+.right,
+.top,
+.bottom {
+  position:absolute;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+/*These ids can be used to fit specific images into our panels*/
+#image1,
+#image2,
+#image3,
+#image4,
+#image5 {
+  position: absolute;
+}
+
+#image1 {
+  top: -50px;
+  width: 100%;
+}
+
+#image2 {
+  height: 100%;
+}
+
+#image3 {
+  width: 100%;
+}
+
+#image4 {
+  top: -90px;
+  width: 120%;
+}
+
+#image5 {
+  height: 100%;
+  left: -30px;    
+}
+
+/*These classes are for stacking or ordering elements on top of eachother.*/
+.inback {
+  z-index: 1;
+}
+
+.inmiddle {
+  z-index: 2;
+}
+
+.infront{
+  z-index: 3;
+}
+
