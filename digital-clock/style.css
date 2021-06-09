@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #80d4ea;
+  min-height: 100vh;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+#clock {
+  color: #fff;
+  font-size: 6.25rem;
+  font-family: courier, monospace;
+  flex-basis: 800px;
+  text-align: center;
+}
