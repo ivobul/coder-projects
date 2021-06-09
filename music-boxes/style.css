@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;  
+  color: #fff;
+  font-family: sans-serif;
+  min-height: 100vh;
+}
+
+.container {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.title {
+  align-self: flex-end;
+  margin-bottom: 40px;
+}
+
+.instrument {
+  display: flex;
+  flex: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+}
+
+.box {
+  flex-basis: 100px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 100px;
+  margin: 5px;
+}
+
+span {
+  display: block;
+  margin-top: 10px;
+}
+
+.c {
+  background-color: #3e181b;
+  border: 3px solid #db1d2d;
+  transition: all .3s linear;
+}
+
+.c:hover {
+  background-color:#661920;
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+.c:active {
+  background-color:#db1d2d;   
+}
+
+.d {
+  background-color: #422018;
+  border: 3px solid #f0421c;
+  transition: all .3s linear;
+}
+
+.d:hover {
+  background-color:#6e2819;
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+.d:active {
+  background-color:#f0421c;   
+}
+
+.e {
+  background-color: #45391b;
+  border: 3px solid #fec02d;
+  transition: all .3s linear;
+}
+
+.e:hover {
+  background-color:#735b20;
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+.e:active {
+  background-color:#fec02d;   
+}
+
+.f {
+  background-color: #193c29;
+  border: 3px solid #20d071;
+  transition: all .3s linear;
+}
+
+.f:hover {
+  background-color:#1b613b;
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+.f:active {
+  background-color:#20d071;   
+}
+
+/*
+
+.g {
+  background-color: #18323e;
+  border: 3px solid #1a9ddb;
+  transition: all .3s linear;
+}
+
+.g:hover {
+  background-color:#184d65;
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+.g:active {
+  background-color:#1a9ddb;   
+}
+
+.a {
+  background-color: #331f35;
+  border: 3px solid #a13fad;
+  transition: all .3s linear;
+} 
+
+.a:hover {
+  background-color:#4e2753;
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+.a:active {
+  background-color:#a13fad;   
+}
+
+.b {
+  background-color: #43293d;
+  border: 3px solid #f26fd4;
+  transition: all .3s linear;
+}
+
+.b:hover {
+  background-color:#6f3a62;
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+.b:active {
+  background-color:#f26fd4;   
+}
+
+*/
