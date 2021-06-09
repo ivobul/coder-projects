@@ -1,0 +1,53 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: purple;
+  font-family: cursive;
+}
+
+.pagecontent {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.img {
+  border-top: 3px solid gray;
+  border-bottom: 3px solid gray;
+  padding: 10px 0;
+}
+
+img {
+  height:400px;
+  max-width: 700px;
+}
+
+article:not(:last-child) {
+  border-bottom: 3px solid gray;
+}
+
+h1 {
+  font-size: 3.125rem;
+  font-weight: bold;
+  line-height:200%;
+}
+
+h2 {
+    font-size: 1.875rem;
+    font-weight: bold;
+    line-height:200%;
+}
+
+p {
+    font-size: 1.25rem;
+    line-height:200%;
+}
+
+
+li {
+    font-size: 1.25rem;
+    line-height:200%;
+    
+}
