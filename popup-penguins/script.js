@@ -14,7 +14,7 @@ boxes.forEach((box) => {
 
       box.style.backgroundImage = 'url("penguin_pngs/yeti.png")';
 
-      alert("Yaaaarrrr!")
+      alert("Yaaaarrrr!");
 
     });
     
