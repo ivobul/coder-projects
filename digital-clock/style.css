@@ -19,7 +19,7 @@ body {
 #clock {
   color: #fff;
   font-size: 6.25rem;
-  font-family: courier, monospace;
+  font-family: monospace;
   flex-basis: 800px;
   text-align: center;
 }
