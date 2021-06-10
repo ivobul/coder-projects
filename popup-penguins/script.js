@@ -16,8 +16,6 @@ boxes.forEach((box) => {
 
       alert("Yaaaarrrr!");
 
-    });
-    
+    });  
   }
-
 });
