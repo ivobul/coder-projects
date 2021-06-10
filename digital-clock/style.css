@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: monospace, monospace;
   margin: 0;
   padding: 0;
 }
@@ -19,7 +20,6 @@ body {
 #clock {
   color: #fff;
   font-size: 6.25rem;
-  font-family: monospace;
   flex-basis: 800px;
   text-align: center;
 }
