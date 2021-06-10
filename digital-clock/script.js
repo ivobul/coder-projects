@@ -8,14 +8,16 @@ function displayTime() {
   const options = {weekday: 'long'};
   const getDay = currentTime.toLocaleTimeString('en-us', options).split(' ')[0];
 
-  // This gets a "handle" to the clock div in our HTML
+  // These get a "handle" to the clock div and the weekday div in our HTML
   const clockDiv = document.getElementById('clock');
-
+  const weekDayDiv = document.getElementById('weekDay');
+  
   // Let's set the AM and PM meridiem and 
   // 12-hour format
   let meridiem = "AM";  // Default is AM
   // Convert from 24 hour to 12 hour format
   // and keep track of the meridiem.
+  
   if (hours > 12) {
       hours = hours - 12;
       meridiem = "PM";
@@ -48,7 +50,8 @@ function displayTime() {
   
   // Set the text inside the clock div
   // to the hours, minutes, and seconds of the current time
-  clockDiv.innerText = `${getDay} ${hours}:${minutes}:${seconds} ${meridiem}`;
+  clockDiv.innerText = `${hours}:${minutes}:${seconds} ${meridiem}`;
+  weekDayDiv.innerText = `${getDay}`;
 }
 
 setInterval(displayTime, 1000);
