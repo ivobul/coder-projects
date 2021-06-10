@@ -14,12 +14,8 @@ boxes.forEach((box) => {
 
       box.style.backgroundImage = 'url("penguin_pngs/yeti.png")';
 
-      if (!alert("Yaaaarrrr!")) {
-        window.location.reload();
-      }
+      (alert("Yaaaarrrr!")
 
     });
-    
   }
-
 });
