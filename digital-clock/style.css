@@ -6,6 +6,7 @@
 
 body {
   background-color: #80d4ea;
+  color: #fff;
   font-family: monospace, monospace;
   min-height: 100vh;
 }
@@ -18,7 +19,6 @@ body {
 }
 
 #clock {
-  color: #fff;
   font-size: 6.25rem;
   flex-basis: 800px;
   text-align: center;
