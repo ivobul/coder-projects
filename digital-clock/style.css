@@ -14,12 +14,29 @@ body {
 .container {
   align-items: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   min-height: 100vh;
+  padding: 0 10px;
 }
 
-#clock {
+#clock,
+#weekDay {
   font-size: 6.25rem;
-  flex-basis: 800px;
   text-align: center;
 }
+
+@media (max-width: 767px) {
+  #clock,
+  #weekDay {
+    font-size: 4.5rem;
+  }
+}
+
+@media (max-width: 376px) {
+  #clock,
+  #weekDay {
+    font-size: 3rem;
+  }
+}
+
