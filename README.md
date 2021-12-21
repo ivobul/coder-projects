@@ -1,4 +1,5 @@
-# Coder Projects
+# Coder Projects (HTML/CSS/JavaScript)
+
 - [The Perfect Recipe](https://ivobul.github.io/coder-projects/the-perfect-recipe)
 - [Make Your Own Mondrian](https://ivobul.github.io/coder-projects/mondrian)
 - [Pop-Up Penguin Game](https://ivobul.github.io/coder-projects/popup-penguins)
