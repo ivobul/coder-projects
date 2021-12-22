@@ -10,4 +10,4 @@
 - [Two.js Puppy](https://ivobul.github.io/coder-projects/twojs-puppy)
 
 ## Link
-- [Coder Projects](https://googlecreativelab.github.io/coder-projects/)
+[Coder Projects](https://googlecreativelab.github.io/coder-projects/)
